@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:id="@+id/rlt_contact"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/imgProfileContact"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvNameContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imgProfileContact"
+        android:text="vxcvxcvxcvxc"
+        android:textColor="#556A77"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvNumberContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNameContact"
+        android:layout_toRightOf="@id/imgProfileContact"
+        android:text="vcxbxcvbxcvb"
+        android:textColor="#556A77"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvContactEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNumberContact"
+        android:layout_toRightOf="@id/imgProfileContact"
+        android:text="bxcvbxcvbcxvb"
+        android:textColor="#556A77"
+        android:textSize="14sp" />
+
+
+
+</RelativeLayout>
